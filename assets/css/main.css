@@ -1834,7 +1834,7 @@
 		}
 
 		.select-wrapper:before {
-			content: '\f078';
+			content: '';
 			color: #e2eaec;
 			display: block;
 			height: 2.75em;
@@ -2574,7 +2574,7 @@
 
 				#header h1 a:before {
 					color: #6ec7f5;
-					content: '\f0c2';
+					/* content: '\f0c2'; */
 					margin-right: 0.6em;
 				}
 
