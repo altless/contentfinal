@@ -1550,7 +1550,7 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background: rgb(68, 59, 56);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1579,13 +1579,13 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #6ec7f5;
+		color: #01744d;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #6ec7f5 !important;
+			color: #01744d !important;
 		}
 
 		a.icon:before {
@@ -1596,7 +1596,7 @@
 		}
 
 		a.icon:hover:before {
-			color: #6ec7f5 !important;
+			color: #01744d !important;
 		}
 
 	strong, b {
@@ -1814,8 +1814,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #6ec7f5;
-			box-shadow: 0 0 0 1px #6ec7f5;
+			border-color: #01744d;
+			box-shadow: 0 0 0 1px #01744d;
 		}
 
 	.select-wrapper {
@@ -1925,8 +1925,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #6ec7f5;
-			box-shadow: 0 0 0 1px #6ec7f5;
+			border-color: #01744d;
+			box-shadow: 0 0 0 1px #01744d;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2019,7 +2019,7 @@
 
 			.icon.alt:before {
 				color: #fff !important;
-				text-shadow: 1px 0 0 #6ec7f5, -1px 0 0 #6ec7f5, 0 1px 0 #6ec7f5, 0 -1px 0 #6ec7f5;
+				text-shadow: 1px 0 0 #01744d, -1px 0 0 #01744d, 0 1px 0 #01744d, 0 -1px 0 #01744d;
 			}
 
 		.icon.major {
@@ -2427,8 +2427,8 @@
 		input[type="button"]:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 1px #6ec7f5;
-			color: #6ec7f5 !important;
+			box-shadow: inset 0 0 0 1px #01744d;
+			color: #01744d !important;
 		}
 
 		input[type="submit"]:active,
@@ -2476,7 +2476,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #6ec7f5 !important;
+			background-color: #01744d !important;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2492,14 +2492,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #86d0f7 !important;
+				background-color: #86f7ac !important;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #56bef3 !important;
+				background-color: #86f7ac !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2533,7 +2533,7 @@
 	}
 
 	#header {
-		background: #fff;
+		background: rgb(68, 59, 56);
 		border-bottom: solid 1px #e2eaec;
 		height: 3.5em;
 		left: 0;
@@ -2569,11 +2569,11 @@
 
 				#header h1 a:before {
 					color: #fff !important;
-					text-shadow: 1px 0 0 #6ec7f5, -1px 0 0 #6ec7f5, 0 1px 0 #6ec7f5, 0 -1px 0 #6ec7f5;
+					text-shadow: 1px 0 0 #01744d, -1px 0 0 #01744d, 0 1px 0 #01744d, 0 -1px 0 #01744d;
 				}
 
 				#header h1 a:before {
-					color: #6ec7f5;
+					color: #01744d;
 					/* content: '\f0c2'; */
 					margin-right: 0.6em;
 				}
@@ -2746,7 +2746,7 @@
 
 		#banner .more {
 			text-decoration: none;
-			background: #fff;
+			background: rgb(68, 59, 56);
 			border-radius: 2em 2em 0 0;
 			border: 0;
 			bottom: 0;
@@ -2888,8 +2888,8 @@
 			#footer input[type="button"]:active,
 			#footer .button:hover,
 			#footer .button:active {
-				color: #6ec7f5 !important;
-				box-shadow: inset 0 0 0 1px #6ec7f5;
+				color: #01744d !important;
+				box-shadow: inset 0 0 0 1px #01744d;
 			}
 
 		#footer ul.labeled-icons li .icon {
@@ -2956,7 +2956,7 @@
 		top: 0;
 		width: 20em;
 		z-index: 10002;
-		background: #fff;
+		background: rgb(68, 59, 56);
 		border-left: solid 1px #e2eaec;
 		box-shadow: 0 0 6px 0 rgba(20, 40, 64, 0.1);
 		cursor: default;
@@ -3003,7 +3003,7 @@
 			}
 
 			#menu .closer:hover:before {
-				color: #6ec7f5;
+				color: #01744d;
 			}
 
 		#menu h2 {
