@@ -1550,7 +1550,7 @@
 /* Basic */
 
 	body {
-		background: rgb(68, 59, 56);
+		background: #1a011d;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1579,13 +1579,13 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #01744d;
+		color: #bd73c4;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #01744d !important;
+			color: #bd73c4 !important;
 		}
 
 		a.icon:before {
@@ -1596,7 +1596,7 @@
 		}
 
 		a.icon:hover:before {
-			color: #01744d !important;
+			color: #bd73c4 !important;
 		}
 
 	strong, b {
@@ -1814,8 +1814,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #01744d;
-			box-shadow: 0 0 0 1px #01744d;
+			border-color: #bd73c4;
+			box-shadow: 0 0 0 1px #bd73c4;
 		}
 
 	.select-wrapper {
@@ -1925,8 +1925,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #01744d;
-			box-shadow: 0 0 0 1px #01744d;
+			border-color: #bd73c4;
+			box-shadow: 0 0 0 1px #bd73c4;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2019,7 +2019,7 @@
 
 			.icon.alt:before {
 				color: #fff !important;
-				text-shadow: 1px 0 0 #01744d, -1px 0 0 #01744d, 0 1px 0 #01744d, 0 -1px 0 #01744d;
+				text-shadow: 1px 0 0 #bd73c4, -1px 0 0 #bd73c4, 0 1px 0 #bd73c4, 0 -1px 0 #bd73c4;
 			}
 
 		.icon.major {
@@ -2427,8 +2427,8 @@
 		input[type="button"]:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 1px #01744d;
-			color: #01744d !important;
+			box-shadow: inset 0 0 0 1px #bd73c4;
+			color: #bd73c4 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2476,7 +2476,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #01744d !important;
+			background-color: #bd73c4 !important;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2492,14 +2492,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #86f7ac !important;
+				background-color: #da91e0 !important;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #86f7ac !important;
+				background-color: #da91e0 !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2510,7 +2510,7 @@
 		.button.disabled,
 		.button:disabled {
 			background-color: #93999a !important;
-			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
+			box-shadow: inset 0 -0.15em 0 0 rgba(51, 6, 61, 0.61);
 			color: #fff !important;
 			cursor: default;
 			opacity: 0.25;
@@ -2533,7 +2533,9 @@
 	}
 
 	#header {
-		background: rgb(68, 59, 56);
+		-webkit-backdrop-filter: blur(5px);
+		backdrop-filter: blur(5px);
+		background: rgba(51, 8, 56, 0.6);
 		border-bottom: solid 1px #e2eaec;
 		height: 3.5em;
 		left: 0;
@@ -2542,14 +2544,17 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		/* display: flex;
+		align-items: center; */
+		text-align: center;
 	}
 
 		#header h1 {
 			height: inherit;
-			left: 1em;
 			line-height: inherit;
-			position: absolute;
 			top: 0;
+			width: 10vw;
+			margin : auto;
 		}
 
 			#header h1 a {
@@ -2569,11 +2574,11 @@
 
 				#header h1 a:before {
 					color: #fff !important;
-					text-shadow: 1px 0 0 #01744d, -1px 0 0 #01744d, 0 1px 0 #01744d, 0 -1px 0 #01744d;
+					text-shadow: 1px 0 0 #bd73c4, -1px 0 0 #bd73c4, 0 1px 0 #bd73c4, 0 -1px 0 #bd73c4;
 				}
 
 				#header h1 a:before {
-					color: #01744d;
+					color: #bd73c4;
 					/* content: '\f0c2'; */
 					margin-right: 0.6em;
 				}
@@ -2630,7 +2635,7 @@
 
 	#banner {
 		background-attachment: fixed,							fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../../images/Aespa_logo_typeb.png");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -2858,7 +2863,7 @@
 /* Footer */
 
 	#footer {
-		background: #f7f9fa;
+		background: #1a011d;
 		border-top: solid 1px #e2eaec;
 		padding: 6.5em 0;
 		color: #93999a;
@@ -2888,8 +2893,8 @@
 			#footer input[type="button"]:active,
 			#footer .button:hover,
 			#footer .button:active {
-				color: #01744d !important;
-				box-shadow: inset 0 0 0 1px #01744d;
+				color: #bd73c4 !important;
+				box-shadow: inset 0 0 0 1px #bd73c4;
 			}
 
 		#footer ul.labeled-icons li .icon {
@@ -2956,7 +2961,7 @@
 		top: 0;
 		width: 20em;
 		z-index: 10002;
-		background: rgb(68, 59, 56);
+		background: #1a011d;
 		border-left: solid 1px #e2eaec;
 		box-shadow: 0 0 6px 0 rgba(20, 40, 64, 0.1);
 		cursor: default;
@@ -3003,7 +3008,7 @@
 			}
 
 			#menu .closer:hover:before {
-				color: #01744d;
+				color: #bd73c4;
 			}
 
 		#menu h2 {
@@ -3059,6 +3064,11 @@
 		-webkit-transform: translateX(0);
 		-ms-transform: translateX(0);
 		transform: translateX(0);
+	}
+
+	#sidebar {
+		border-left: solid 1px #fff;
+		padding-left: 2vw;
 	}
 
 /* XLarge */
